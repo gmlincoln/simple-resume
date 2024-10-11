@@ -204,3 +204,59 @@ nav ul li .btn-resume {
     width: 100%;
     height: 540px;
 }
+
+/* My Current Target  Top*/
+.my-current-target {
+    margin-top: 100px;
+}
+
+.my-current-target .skill-card {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.my-current-target .skill-card .skill {
+    padding: 40px;
+    border-radius: 16px;
+}
+
+#skill-one {
+    background: rgba(255, 76, 30, 0.05);
+
+}
+
+#skill-two {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#skill-three {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.my-current-target .skill-card .skill img {
+    margin-bottom: 24px;
+}
+
+.my-current-target .skill-card .skill-content .skill-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.my-current-target .skill-card .skill-content .skill-details {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.my-current-target .skill-card .skill-content .btn-skill {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
