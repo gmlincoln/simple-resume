@@ -1,3 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+}
 
+
+body {
+    font-family: "Azeret Mono", serif;
+}
+
+/* Common Shared Style */
+
+.container {
+    width: 1120px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header Style */
+#header nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+#header nav ul li {
+    list-style: none;
+}
+
+#header nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li .logo-text {
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+nav ul li .btn-resume {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+}
+
+.hero-banner {
+    background-image: url('../assets/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hero-content {
+    padding: 20px 0 45px 0;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-content .hero-img img {
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.hero-content div .hero-title {
+    color: #0D1321;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 68px;
+}
+
+.hero-content div p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    width: 810px;
+    margin: 28px auto;
+
+}
+
+.hero-content div button {
+    border-radius: 8px;
+    background-color: #0D1321;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border: none;
+    cursor: pointer;
+}
